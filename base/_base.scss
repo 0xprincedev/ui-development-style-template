@@ -1,0 +1,31 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  border-width: 0;
+  border-style: solid;
+  border-color: currentColor;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button,
+input {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+*:disabled {
+  cursor: not-allowed;
+}
